@@ -1,0 +1,141 @@
+# ============================================================================
+# DIQQAT — bu bank huquqiy mazmunga ega.
+#
+# Sinov ko'rsatdi: model O'zbekiston qonunchiligidagi ANIQ SANA va MODDA
+# RAQAMLARINI ishonchli ohangda, lekin ko'pincha noto'g'ri aytadi (Jinoyat
+# kodeksi sanasini 3 yil adashtirdi, Senatni "Millatlar Palatasi" dedi).
+#
+# Shuning uchun quyidagi `expected` nuqtalar atayin MULOHAZA va TARTIBGA
+# qaratilgan, modda raqamiga emas. Model HR bergan mezonga ergashadi (bu ham
+# sinab ko'rilgan), ya'ni mezon to'g'ri bo'lsa baho ham to'g'ri bo'ladi.
+#
+# Agar mezonga aniq sana, muddat yoki modda raqami qo'shsangiz — uni YURIST
+# tekshirishi shart. Model xato mezonni tuzatib bermaydi.
+# ============================================================================
+id: yurist
+title: Korporativ yurist — kasbiy intervyu
+job_id: yurist-korporativ
+description: >
+  Shartnoma huquqi, mehnat munosabatlari, nizolarni hal qilish va kasbiy
+  mulohaza bo'yicha savollar. Mezonlar modda raqamiga emas, yondashuvga
+  qaratilgan.
+pass_score: 65
+default_count: 6
+shuffle: true
+stratify_by_topic: true
+time_limit_min: 50
+
+questions:
+  # ---------- Shartnoma huquqi ----------
+  - id: sh-1
+    topic: Shartnoma huquqi
+    difficulty: o'rta
+    text: >
+      Kompaniya yangi yetkazib beruvchi bilan shartnoma tuzmoqchi. Shartnoma
+      loyihasini ekspertiza qilayotganda birinchi navbatda nimalarga
+      e'tibor berasiz?
+    expected:
+      - "tomonlarning vakolati tekshiriladi (imzolovchining huquqi bormi)"
+      - "predmet va majburiyatlar aniq yozilganmi, ikki xil tushunish imkoni yo'qmi"
+      - "to'lov shartlari, muddatlar va ularning bog'liqligi"
+      - "javobgarlik, penya va zarar qoplash tartibi"
+      - "nizolarni hal qilish tartibi va qaysi sud vakolatli ekani"
+      - "shartnomani bekor qilish asoslari va tartibi"
+
+  - id: sh-2
+    topic: Shartnoma huquqi
+    difficulty: qiyin
+    text: >
+      Kontragent shartnoma bo'yicha majburiyatini bajarmadi va "fors-major"
+      deb da'vo qilmoqda. Bu da'voni qanday tekshirasiz?
+    expected:
+      - "fors-major holati shartnomada qanday ta'riflanganini ko'rish"
+      - "holat haqiqatan favqulodda va oldindan ko'rib bo'lmaydigan bo'lganmi"
+      - "kontragent o'z vaqtida xabar berganmi (xabar berish muddati)"
+      - "vakolatli organ tasdig'i (masalan savdo-sanoat palatasi) bormi"
+      - "holat bilan majburiyat bajarilmagani o'rtasida sababiy bog'liqlik bormi"
+      - "moliyaviy qiyinchilik odatda fors-major hisoblanmasligi"
+
+  # ---------- Mehnat huquqi ----------
+  - id: meh-1
+    topic: Mehnat huquqi
+    difficulty: o'rta
+    text: >
+      Rahbar xodimni "ishga yaramaydi" deb ertaga ishdan bo'shatishni so'rayapti.
+      Yurist sifatida qanday javob berasiz va qanday tartibni tavsiya qilasiz?
+    expected:
+      - "ish beruvchi xohishi bilan bekor qilish faqat qonunda ko'rsatilgan asosda bo'lishi"
+      - "asos hujjat bilan tasdiqlanishi kerakligi (attestatsiya, hisobot, tushuntirish xati)"
+      - "xodimdan yozma tushuntirish olish zarurligi"
+      - "ogohlantirish muddati va rasmiylashtirish tartibiga rioya qilish"
+      - "himoyalangan toifalar (homilador, ta'tildagi, kasallik varaqasidagi) tekshirilishi"
+      - "tartib buzilsa xodim sudda ishga tiklanishi va to'lov undirishi mumkinligi"
+
+  - id: meh-2
+    topic: Mehnat huquqi
+    difficulty: oson
+    text: >
+      Mehnat shartnomasida albatta bo'lishi kerak bo'lgan shartlar qaysilar?
+      Og'zaki kelishuv yetarlimi?
+    expected:
+      - "mehnat shartnomasi yozma shaklda tuziladi"
+      - "tomonlar, ish joyi va lavozim (mehnat funksiyasi)"
+      - "ish boshlanish sanasi va shartnoma muddati"
+      - "mehnatga haq to'lash shartlari"
+      - "ish vaqti va dam olish vaqti rejimi"
+      - "og'zaki kelishuv xodim uchun xavfli — nizoda dalil bo'lmaydi"
+
+  # ---------- Nizolar va sud ----------
+  - id: niz-1
+    topic: Nizolar va sud
+    difficulty: qiyin
+    text: >
+      Mijoz qarzdorga da'vo qilmoqchi. Sudga murojaat qilishdan oldin qanday
+      bosqichlarni bosib o'tasiz?
+    expected:
+      - "shartnoma va birlamchi hujjatlarni to'plab dalil bazasini baholash"
+      - "da'vo muddati o'tmaganini tekshirish"
+      - "sudgacha da'vo (pretenziya) tartibi shart bo'lsa unga rioya qilish"
+      - "qarzdorning to'lov qobiliyati va aktivlarini baholash — g'alaba bilan undirish boshqa narsa"
+      - "qaysi sud vakolatli ekanini aniqlash"
+      - "sud xarajatlari va kutilayotgan natijani mijozga ochiq tushuntirish"
+
+  - id: niz-2
+    topic: Nizolar va sud
+    difficulty: o'rta
+    text: >
+      Sudgacha kelishuv (murosa) mijoz uchun qachon sud jarayonidan afzal
+      bo'ladi?
+    expected:
+      - "dalil bazasi kuchsiz yoki natija noaniq bo'lganda"
+      - "vaqt va sud xarajatlari kutilayotgan foydadan katta bo'lganda"
+      - "biznes munosabatini saqlab qolish muhim bo'lganda"
+      - "qarzdorda aktiv kam — sud qarori bo'lsa ham undirib bo'lmasligi mumkin"
+      - "oshkoralik kompaniyaga zarar keltirishi mumkin bo'lganda"
+
+  # ---------- Kasbiy mulohaza ----------
+  - id: kas-1
+    topic: Kasbiy mulohaza
+    difficulty: qiyin
+    text: >
+      Rahbariyat sizdan qonunga zid bo'lgan, lekin kompaniyaga foydali
+      ko'ringan hujjatni tayyorlashni so'radi. Qanday yo'l tutasiz?
+    expected:
+      - "xavfni aniq va yozma ko'rsatish: qanday javobgarlik, qanday oqibat"
+      - "qonuniy muqobil yechim taklif qilish"
+      - "qaror rahbarga tegishli, lekin yurist xulosasi hujjatlashtirilishi kerak"
+      - "qonunga zid hujjatni tayyorlashdan bosh tortish"
+      - "shaxsiy javobgarlik ehtimolini tushunish"
+
+  - id: kas-2
+    topic: Kasbiy mulohaza
+    difficulty: o'rta
+    text: >
+      Qonunchilikdagi o'zgarishlarni qanday kuzatib borasiz va jamoani qanday
+      xabardor qilasiz?
+    expected:
+      - "rasmiy manbalardan foydalanish (lex.uz, rasmiy e'lonlar)"
+      - "muntazamlik — bir martalik emas, doimiy jarayon"
+      - "o'zgarish kompaniyaning qaysi jarayoniga ta'sir qilishini baholash"
+      - "javobgar bo'limlarga tushunarli tilda yetkazish (uzun sitata emas)"
+      - "ichki hujjat va shablonlarni yangilash"

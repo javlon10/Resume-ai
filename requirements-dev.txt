@@ -1,0 +1,5 @@
+# Faqat ishlab chiqish va tekshirish uchun (ishlatishga kerak emas).
+#   .venv/bin/pip install -r requirements-dev.txt
+playwright>=1.40        # veb interfeysni haqiqiy brauzerda tekshirish
+                        # keyin: .venv/bin/playwright install chromium
+reportlab>=4.0          # test uchun PDF resume yasash

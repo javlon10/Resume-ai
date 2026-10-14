@@ -1,0 +1,132 @@
+# ============================================================================
+# DIQQAT: mezonlar (`expected`) mulohaza va xizmat tartibiga qaratilgan,
+# modda raqami yoki aniq muddatga emas — model bunday ma'lumotni ishonchli
+# ohangda noto'g'ri aytishi mumkin (sinovda shunday bo'ldi).
+# Mezonga aniq normativ havola qo'shsangiz, uni huquqshunos tekshirsin.
+# ============================================================================
+id: ichki-ishlar
+title: Ichki ishlar organlari — kasbiy intervyu
+job_id: profilaktika-inspektori
+description: >
+  Profilaktika ishi, aholi bilan muloqot, xizmat tartibi va kasbiy etika
+  bo'yicha savollar. Amaliy vaziyatlarga urg'u berilgan.
+pass_score: 60
+default_count: 6
+shuffle: true
+stratify_by_topic: true
+time_limit_min: 45
+
+questions:
+  # ---------- Profilaktika ishi ----------
+  - id: pro-1
+    topic: Profilaktika ishi
+    difficulty: o'rta
+    text: >
+      Biriktirilgan hududda ishni qayerdan boshlaysiz? Hududni o'rganish
+      nimani anglatadi?
+    expected:
+      - "hudud chegarasi, aholi tarkibi va turar joy fondini o'rganish"
+      - "profilaktika hisobida turgan shaxslar ro'yxati bilan tanishish"
+      - "muammoli nuqtalarni aniqlash (yig'ilish joylari, yoritilmagan hududlar)"
+      - "mahalla faollari, oqsoqol va jamoatchilik bilan aloqa o'rnatish"
+      - "oldingi davr huquqbuzarlik statistikasini tahlil qilish"
+      - "aholi qabulini tartibga solish va jadval belgilash"
+
+  - id: pro-2
+    topic: Profilaktika ishi
+    difficulty: qiyin
+    text: >
+      Hisobda turgan shaxs bilan individual profilaktika ishini qanday olib
+      borasiz? Faqat nazorat yetarlimi?
+    expected:
+      - "shaxsning holatini o'rganish: oila, ish, muhit, huquqbuzarlik sababi"
+      - "nazorat bilan birga yordam: ish topishga, o'qishga, tibbiy yordamga yo'naltirish"
+      - "oila a'zolari va mahalla bilan birgalikda ishlash"
+      - "muntazam suhbat va natijani hujjatlashtirish"
+      - "faqat nazorat samarasiz — sabab bartaraf etilmasa takrorlanadi"
+      - "ijobiy o'zgarish bo'lsa hisobdan chiqarish masalasini ko'tarish"
+
+  # ---------- Aholi bilan ishlash ----------
+  - id: aho-1
+    topic: Aholi bilan ishlash
+    difficulty: qiyin
+    text: >
+      Oilaviy nizo bo'yicha chaqiruvga bordingiz. Er-xotin bir-birini ayblayapti,
+      bolalar yig'layapti. Qanday harakat qilasiz?
+    expected:
+      - "avval vaziyatni tinchlantirish va tomonlarni ajratish"
+      - "jabrlanuvchi va bolalarning xavfsizligini birinchi o'ringa qo'yish"
+      - "jismoniy shikast yoki tahdid bor-yo'qligini aniqlash"
+      - "har bir tomonni alohida, xotirjam tinglash"
+      - "betaraf qolish — hech kimning tarafini olmaslik"
+      - "huquqbuzarlik alomati bo'lsa qonuniy choralar ko'rish, bo'lmasa profilaktik suhbat"
+      - "holatni rasmiylashtirish va keyinchalik nazoratga olish"
+
+  - id: aho-2
+    topic: Aholi bilan ishlash
+    difficulty: o'rta
+    text: >
+      Fuqaro sizga qo'pol munosabatda bo'lyapti va haqorat qilyapti. Qanday
+      javob qaytarasiz?
+    expected:
+      - "o'zini tutish, javoban qo'pollik qilmaslik"
+      - "xizmat etikasi va forma obro'sini saqlash"
+      - "vaziyatni kuchaytirmaslik, ovozni ko'tarmaslik"
+      - "fuqaroning noroziligi sababini aniqlashga harakat qilish"
+      - "qonun buzilsa tegishli chora ko'rish, lekin shaxsiy his bilan emas"
+      - "kerak bo'lsa voqeani hujjatlashtirish va rahbariyatga xabar berish"
+
+  # ---------- Xizmat tartibi ----------
+  - id: xiz-1
+    topic: Xizmat tartibi
+    difficulty: o'rta
+    text: >
+      Ma'muriy huquqbuzarlik bo'yicha bayonnoma rasmiylashtirayotganda qanday
+      xatolar ishni bekor qilishga olib kelishi mumkin?
+    expected:
+      - "shaxs ma'lumotlari va voqea joyi/vaqti noto'g'ri yoki to'liqsiz yozilishi"
+      - "huquqbuzarlik holati aniq bayon qilinmasligi"
+      - "shaxsga uning huquqlari tushuntirilmagani"
+      - "guvohlar yoki dalillar rasmiylashtirilmagani"
+      - "shaxsga tushuntirish berish imkoni berilmagani"
+      - "muddatlarga rioya qilinmagani"
+      - "imzolar va nusxa topshirilgani qayd etilmagani"
+
+  - id: xiz-2
+    topic: Xizmat tartibi
+    difficulty: qiyin
+    text: >
+      Fuqaroning murojaati sizning vakolatingizga kirmaydi. Qanday yo'l tutasiz?
+    expected:
+      - "murojaatni rad etmaslik va qabul qilib rasmiylashtirish"
+      - "vakolatli organni aniqlab, murojaatni o'sha organga yo'naltirish"
+      - "fuqaroga qayerga yuborilgani va muddati haqida xabar berish"
+      - "belgilangan muddatlarga rioya qilish"
+      - "shoshilinch xavf bo'lsa darhol chora ko'rish, keyin yo'naltirish"
+
+  # ---------- Kasbiy etika ----------
+  - id: eti-1
+    topic: Kasbiy etika
+    difficulty: qiyin
+    text: >
+      Hisobda turgan shaxsning qarindoshi sizga "masalani yopish" uchun pul
+      taklif qilmoqda. Nima qilasiz?
+    expected:
+      - "taklifni qat'iy rad etish"
+      - "bu korrupsiya huquqbuzarligi ekanini tushunish va tushuntirish"
+      - "voqeani rahbariyatga va tegishli xizmatga xabar qilish"
+      - "holatni hujjatlashtirish"
+      - "keyinchalik shu shaxs bilan ishda shaffoflikni saqlash, guvoh bilan ishlash"
+
+  - id: eti-2
+    topic: Kasbiy etika
+    difficulty: o'rta
+    text: >
+      Hamkasbingiz xizmat vaqtida qoidabuzarlik qilayotganini ko'rdingiz.
+      Qanday yo'l tutasiz?
+    expected:
+      - "avval hamkasb bilan bevosita gaplashish (agar jiddiy bo'lmasa)"
+      - "jiddiy buzilish bo'lsa rahbariyatga xabar berish majburiyati"
+      - "jamoaviy javobgarlik — bitta xodim butun bo'linma obro'siga ta'sir qiladi"
+      - "voqeani obyektiv bayon qilish, shaxsiy munosabat aralashtirmaslik"
+      - "jim qolish ham javobgarlikka olib kelishi mumkinligi"

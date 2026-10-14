@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+logs/
+run/
+data/out/
+.venv/
+certs/
+secrets/
+data/voice_cache/
+data/sessions/
+.voice-backup-*/
+
+# Haqiqiy savol banklarini ochiq repozitoriyga qo'ymang — nomzod o'qib
+# kelishi mumkin. Namunalar `data/interviews/` da qolgan, o'zingiznikini
+# shu naqsh bilan yashiring:
+# data/interviews/*.yaml
+# !data/interviews/_shablon.yaml.example

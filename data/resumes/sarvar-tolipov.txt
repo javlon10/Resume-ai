@@ -1,0 +1,32 @@
+SARVAR TOLIPOV
+Frontend Developer
+Toshkent | sarvar.tolipov@gmail.com | +998 99 345 67 89
+
+QISQA
+4 yillik frontend tajriba. React va TypeScript bilan SPA ishlab chiqaman.
+Backend tomonga o'tishni xohlayman.
+
+ISH TAJRIBASI
+
+Frontend Developer | Payme | 2022 — hozirgacha
+- React + TypeScript asosida mijoz kabinetini ishlab chiqdim.
+- Redux Toolkit, React Query bilan holat boshqaruvi.
+- Figma maketlarini piksel aniqlikda amalga oshirish.
+- Backend jamoasi bilan REST API kelishuvlarini muhokama qilaman.
+- Jest va React Testing Library bilan testlar.
+
+Frontend Developer | Veb-studiya "Digital" | 2021 — 2022
+- Vue.js va jQuery bilan landing sahifalar va korporativ saytlar.
+- WordPress shablonlarini moslashtirish (PHP bilan yuzaki ishlash).
+
+TEXNIK KO'NIKMALAR
+JavaScript, TypeScript, React, Redux, Vue.js, HTML5, CSS3, SASS, Tailwind
+Vite, Webpack, Git, Figma
+Node.js bilan kichik Express serverlar yozganman.
+Python: universitetda o'qigan, oddiy skript yozaman.
+
+TA'LIM
+Bakalavr, Dasturiy injiniring | Inha University in Tashkent | 2017 — 2021
+
+TILLAR
+O'zbek — ona tili | Rus — yaxshi | Ingliz — B2

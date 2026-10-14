@@ -1,0 +1,72 @@
+id: profilaktika-inspektori
+title: Profilaktika inspektori
+level: o'rta (2+ yil tajribali)
+company: Tuman ichki ishlar bo'limi
+domain: Ichki ishlar organlari / jamoat xavfsizligi
+location: Toshkent viloyati, tuman markazi
+employment_type: To'liq bandlik (xizmat)
+min_years: 2
+education: Yuridik yoki ichki ishlar yo'nalishida oliy ma'lumot
+languages:
+  - O'zbek (erkin, aholi bilan muloqot darajasida)
+  - Rus (hujjat va yozishmalar uchun)
+
+must_have:
+  - Yuridik yoki ichki ishlar yo'nalishida oliy ma'lumot
+  - Ichki ishlar organlarida kamida 2 yil xizmat tajribasi
+  - Ma'muriy huquqbuzarliklar bo'yicha bayonnoma rasmiylashtirish tajribasi
+  - Aholi bilan bevosita ishlash tajribasi (qabul, hududni o'rganish)
+  - Jismoniy tayyorgarlik normativlarini bajarish
+
+nice_to_have:
+  - Profilaktika hisobida turgan shaxslar bilan ishlash tajribasi
+  - Oilaviy nizolarni hal qilish va mediatsiya ko'nikmasi
+  - Voyaga yetmaganlar bilan ishlash tajribasi
+  - Mahalla va jamoatchilik bilan hamkorlik tajribasi
+  - Psixologiya yoki pedagogika bo'yicha qo'shimcha tayyorgarlik
+  - Axborot tizimlari va elektron hisobot bilan ishlash
+
+skills:
+  - Ma'muriy javobgarlik to'g'risidagi qonunchilik
+  - Profilaktika ishi metodikasi va hisobga olish tartibi
+  - Xizmat hujjatlarini rasmiylashtirish
+  - Aholi murojaatlarini ko'rib chiqish tartibi
+  - Konflikt vaziyatlarda muloqot
+
+responsibilities:
+  - Biriktirilgan hududda huquqbuzarliklar profilaktikasini olib borish
+  - Profilaktika hisobida turgan shaxslar bilan individual ish
+  - Fuqarolar murojaatlarini qabul qilish va ko'rib chiqish
+  - Ma'muriy huquqbuzarlik bo'yicha materiallarni rasmiylashtirish
+  - Mahalla faollari va jamoatchilik bilan hamkorlik qilish
+  - Oilaviy nizolar bo'yicha profilaktik suhbatlar o'tkazish
+  - Hudud bo'yicha tahliliy ma'lumot tayyorlash
+
+notes: >
+  Ish aholi bilan bevosita muloqotga asoslanadi. Nomzod xushmuomala, sabrli va
+  ayni paytda qat'iyatli bo'lishi, xizmat etikasiga qat'iy amal qilishi kerak.
+
+weights:
+  hard_skills: 25
+  experience: 25
+  seniority: 8
+  domain: 12
+  education: 13
+  soft_and_language: 15
+  stability: 2
+
+criteria_guidance:
+  hard_skills: >
+    ma'muriy qonunchilik bilimi, xizmat hujjatlarini rasmiylashtirish,
+    profilaktika ishi metodikasi, murojaatlar bilan ishlash tartibi.
+  domain: >
+    ichki ishlar organlarida, prokuraturada, sudda yoki boshqa huquqni
+    muhofaza qiluvchi organda xizmat tajribasi. Harbiy xizmat ham qisman
+    hisobga olinadi.
+  soft_and_language: >
+    aholi bilan muloqot, konflikt vaziyatda o'zini tuta bilish, ishonch
+    qozonish, oilaviy nizoda betaraf qolish, xizmat etikasi. Bu lavozimda
+    muloqot ko'nikmasi texnik bilimdan kam ahamiyatli emas.
+  stability: >
+    huquqni muhofaza qiluvchi organlarda tez-tez joy almashtirish odatiy emas,
+    shuning uchun barqarorlikka alohida e'tibor.

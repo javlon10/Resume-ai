@@ -1,0 +1,36 @@
+NODIRA YUSUPOVA
+Backend Developer (Python)
+Samarqand | nodira.y@gmail.com | +998 93 777 88 99
+
+MAQSAD
+Django asosida mahsulot ishlab chiqadigan jamoada o'sish va murakkabroq
+arxitektura masalalari bilan ishlash.
+
+ISH TAJRIBASI
+
+Backend Developer | Smartup Soft | 2023 — hozirgacha
+- Django asosida CRM tizimining backend qismini rivojlantiraman.
+- DRF yordamida 30 dan ortiq REST endpoint yozdim.
+- PostgreSQL bilan ishlayman: modellar, migratsiyalar, oddiy JOIN so'rovlar.
+- Celery bilan hisobot generatsiyasi vazifalarini fon rejimiga chiqardim.
+- Docker Compose bilan loyihani lokal ko'tarishni o'rgandim.
+
+Junior Python Developer | IT Park rezidenti (kichik studiya) | 2022 — 2023
+- Django shablonlari asosida korporativ saytlar.
+- Telegram bot: buyurtma qabul qilish, to'lov havolasi yuborish.
+- HTML/CSS va bir oz JavaScript bilan frontend tuzatishlar.
+
+TEXNIK KO'NIKMALAR
+Python, Django, Django REST Framework, PostgreSQL, SQLite, Celery, Redis
+(asoslari), Git, Docker Compose, Linux (asosiy buyruqlar), Postman
+Testlash: Django TestCase bilan tanishganman, keng qo'llamaganman
+
+TA'LIM
+Bakalavr, Axborot texnologiyalari | Samarqand davlat universiteti | 2018 — 2022
+
+TILLAR
+O'zbek — ona tili | Rus — yaxshi | Ingliz — A2 (hujjatlarni lug'at bilan o'qiyman)
+
+QO'SHIMCHA
+- Toshkentga ko'chishga yoki to'liq masofadan ishlashga tayyorman.
+- Bo'sh vaqtimda FastAPI o'rganib, pet-project yozib yuraman.

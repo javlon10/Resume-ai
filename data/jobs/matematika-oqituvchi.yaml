@@ -1,0 +1,70 @@
+id: matematika-oqituvchi
+title: Matematika fani o'qituvchisi (olimpiada yo'nalishi)
+level: katta (5+ yil tajribali)
+company: Bilim o'quv markazi
+domain: Qo'shimcha ta'lim / oliygohga tayyorlash
+location: Samarqand, markaz binosi
+employment_type: To'liq bandlik
+min_years: 5
+education: Matematika yoki amaliy matematika yo'nalishida oliy ma'lumot
+languages:
+  - O'zbek (erkin)
+  - Rus (o'quv adabiyoti uchun)
+
+must_have:
+  - Matematika yoki amaliy matematika yo'nalishida oliy ma'lumot
+  - Kamida 5 yil matematika fanidan dars berish tajribasi
+  - Oliygohga kirish imtihonlariga tayyorlash tajribasi
+  - Murakkab olimpiada masalalarini yechish va tushuntirish qobiliyati
+  - Guruh bilan ishlash (10-20 o'quvchi) tajribasi
+
+nice_to_have:
+  - O'quvchilari respublika yoki xalqaro olimpiadada natija ko'rsatgan
+  - Oliy toifa
+  - Algebra va geometriya bo'yicha o'z metodik materiallarini yaratgan
+  - Magistr yoki fan nomzodi darajasi
+  - Onlayn dars berish tajribasi (Zoom, o'quv platformalari)
+  - Ingliz tili (xalqaro olimpiada materiallari uchun)
+
+skills:
+  - Algebra, geometriya, trigonometriya, matematik analiz asoslari
+  - Kombinatorika va sonlar nazariyasi (olimpiada yo'nalishi)
+  - Masala yechish strategiyalarini o'rgatish
+  - Individual va guruh darslarini tashkil etish
+  - O'quvchi bilimini diagnostika qilish va dastur moslashtirish
+
+responsibilities:
+  - Oliygohga tayyorlov guruhlarida matematika darslarini olib borish
+  - Olimpiadaga tayyorlov guruhini shakllantirish va mashg'ulot o'tkazish
+  - Sinov imtihonlarini tuzish va natijalarni tahlil qilish
+  - O'quv materiallari va masalalar to'plamini tayyorlash
+  - O'quvchi va ota-onaga muntazam hisobot berish
+
+notes: >
+  Markazning asosiy ko'rsatkichi — o'quvchilarning oliygohga kirish foizi va
+  olimpiada natijalari. Shuning uchun natija ko'rsatgan tajriba alohida qadrlanadi.
+
+weights:
+  hard_skills: 32
+  experience: 22
+  seniority: 8
+  domain: 8
+  education: 15
+  soft_and_language: 12
+  stability: 3
+
+criteria_guidance:
+  hard_skills: >
+    matematika bo'limlarini chuqur bilishi (algebra, geometriya, trigonometriya,
+    kombinatorika, sonlar nazariyasi), olimpiada darajasidagi masalalarni yechish
+    va tushuntirish qobiliyati, dars metodikasi.
+  seniority: >
+    guruhlarni mustaqil olib borish, o'quv dasturini o'zi tuzish, boshqa
+    o'qituvchilarga metodik yordam, toifa darajasi.
+  domain: >
+    o'quv markazi, repetitorlik, litsey yoki oliygoh tayyorlov kurslarida
+    ishlagan tajriba. Maktabdagi oddiy dars tajribasi ham hisoblanadi, lekin
+    imtihonga tayyorlash tajribasi yuqori baholanadi.
+  soft_and_language: >
+    o'quvchini motivatsiya qilish, murakkab mavzuni sodda tushuntirish,
+    ota-onalar bilan muloqot, guruhni boshqarish.

@@ -1,0 +1,45 @@
+# Namuna: korporativ yurist intervyusi
+#   ./scripts/ra interview --answers data/answers/namuna-yurist.yaml
+interview: yurist
+candidate: Nilufar Ergasheva
+job_title: Korporativ yurist
+
+answers:
+  sh-1: >
+    Birinchi navbatda imzolovchining vakolatini tekshiraman — ustav yoki
+    ishonchnoma bo'yicha shu shaxs shartnoma imzolashga haqlimi. Keyin predmet
+    va majburiyatlar aniq yozilganini ko'raman: ikki xil tushunish imkoni
+    bo'lmasligi kerak. To'lov shartlari, muddatlar va ularning o'zaro
+    bog'liqligini tekshiraman — masalan to'lov yetkazib berishdan oldinmi yoki
+    keyin. Javobgarlik, penya miqdori va zarar qoplash tartibini ko'raman.
+    Oxirida nizolarni hal qilish tartibi, qaysi sud vakolatli ekani va
+    shartnomani bekor qilish asoslarini tekshiraman.
+
+  meh-1: >
+    Rahbarga tushuntiraman: ish beruvchi tashabbusi bilan bekor qilish faqat
+    qonunda ko'rsatilgan asoslar bo'yicha mumkin, "yaramaydi" degan baho asos
+    emas. Asos hujjat bilan tasdiqlanishi kerak — attestatsiya natijasi,
+    ko'rsatkichlar bo'yicha hisobot yoki intizomiy jazo. Xodimdan albatta yozma
+    tushuntirish olinadi. Ogohlantirish muddati va rasmiylashtirish tartibiga
+    rioya qilinadi. Alohida tekshiraman: xodim homilador emasmi, ta'tilda yoki
+    kasallik varaqasida emasmi. Tartib buzilsa, xodim sudda ishga tiklanadi va
+    majburiy bo'shab qolgan vaqt uchun to'lov undiradi — bu kompaniyaga
+    qimmatga tushadi.
+
+  niz-1: >
+    Avval shartnoma va birlamchi hujjatlarni to'playman — dalil bazasi qanchalik
+    kuchli ekanini baholayman. Da'vo muddati o'tmaganini tekshiraman. Shartnomada
+    yoki qonunda sudgacha pretenziya tartibi nazarda tutilgan bo'lsa, unga rioya
+    qilaman, aks holda sud arizani qaytaradi. Juda muhim nuqta — qarzdorning
+    to'lov qobiliyatini baholash: sudda yutish bilan pulni undirish boshqa-boshqa
+    narsa, aktivlari bo'lmasa qaror qog'ozda qolib ketadi. Qaysi sud vakolatli
+    ekanini aniqlayman. Mijozga sud xarajatlari va real natijani ochiq
+    tushuntiraman.
+
+  kas-1: >
+    Avval xavfni yozma ravishda ko'rsataman: qanday javobgarlik kelib chiqadi,
+    jarima qancha, kim javob beradi. Keyin qonuniy muqobil yechim taklif
+    qilaman — ko'pincha maqsadga qonuniy yo'l bilan ham erishish mumkin.
+    Yakuniy qaror rahbarga tegishli, lekin mening huquqiy xulosam
+    hujjatlashtirilishi kerak. Qonunga zid hujjatni o'zim tayyorlashdan bosh
+    tortaman, chunki bunda shaxsiy javobgarlik ham bor.

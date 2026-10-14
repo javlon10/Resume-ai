@@ -1,0 +1,54 @@
+DILSHOD KARIMOV
+Senior Backend Developer
+Toshkent, O'zbekiston | dilshod.karimov@mail.uz | +998 90 123 45 67
+GitHub: github.com/dkarimov | Telegram: @dkarimov
+
+QISQA MA'LUMOT
+7 yillik Python backend tajribasiga ega dasturchi. Yuqori yuklamali to'lov va
+e-commerce tizimlarini loyihalash bo'yicha ixtisoslashgan. Monolitni
+mikroservislarga ajratish bo'yicha 2 ta yirik migratsiyani boshqargan.
+
+ISH TAJRIBASI
+
+Lead Backend Developer | Click (to'lov tizimi) | 2022 — hozirgacha
+- To'lov protsessing xizmatini FastAPI asosida qaytadan loyihaladim; o'rtacha
+  javob vaqti 420 ms dan 95 ms ga tushdi.
+- Kunlik 12 000 RPS cho'qqi yuklamani ko'taradigan tranzaksiya servisini
+  Kafka va Redis yordamida qurdim.
+- PostgreSQL'da partitsiyalash va indeks optimizatsiyasi orqali hisobot
+  so'rovlarini 14 barobar tezlashtirdim.
+- 5 kishilik jamoaga rahbarlik qilaman, har hafta kod review va 2 ta middle
+  dasturchiga mentorlik qilaman.
+- Kubernetes (EKS) va Helm yordamida 18 ta mikroservis deploy qilinadi;
+  GitLab CI quvurlarini o'zim sozladim.
+- Prometheus + Grafana asosida monitoring va alerting tizimini joriy etdim.
+
+Backend Developer | Uzum Market | 2019 — 2022
+- Django va Django REST Framework bilan buyurtma va ombor modullarini
+  ishlab chiqdim.
+- Celery asosida asinxron vazifalar (xabarnomalar, hisob-fakturalar) tizimi.
+- PostgreSQL sxemasini loyihalashda qatnashdim, 40+ migratsiya yozdim.
+- pytest bilan unit va integration testlar; qoplamani 38% dan 81% ga oshirdim.
+- Docker Compose asosida lokal ishlab chiqish muhitini standartlashtirdim.
+
+Junior Python Developer | Freelance / Startaplar | 2018 — 2019
+- Flask asosida kichik REST API'lar, Telegram botlar.
+
+TEXNIK KO'NIKMALAR
+Tillar: Python 3.11, SQL, Bash, bir oz Go
+Framework: FastAPI, Django, DRF, Flask, Celery
+Ma'lumotlar bazasi: PostgreSQL, Redis, ClickHouse (hisobotlar uchun)
+Infratuzilma: Docker, Kubernetes, Helm, GitLab CI, Nginx, Terraform (asosiy)
+Navbat: Kafka, RabbitMQ
+Monitoring: Prometheus, Grafana, Sentry, OpenTelemetry
+Testlash: pytest, factory_boy, locust (load testing)
+
+TA'LIM
+Bakalavr, Kompyuter injiniringi | TATU (Toshkent) | 2014 — 2018
+
+TILLAR
+O'zbek — ona tili | Rus — erkin | Ingliz — B2 (texnik hujjatlar, miting)
+
+SERTIFIKATLAR
+AWS Certified Solutions Architect – Associate (2023)
+Certified Kubernetes Application Developer (CKAD, 2022)

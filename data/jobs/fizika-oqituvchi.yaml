@@ -1,0 +1,76 @@
+id: fizika-oqituvchi
+title: Fizika fani o'qituvchisi
+level: o'rta / katta (2+ yil tajribali)
+company: 21-son ixtisoslashtirilgan litsey
+domain: Umumiy o'rta va ixtisoslashtirilgan ta'lim
+location: Toshkent, Yunusobod tumani
+employment_type: To'liq bandlik (18-24 soat/hafta)
+min_years: 2
+education: Fizika yoki fizika-matematika yo'nalishida oliy ma'lumot (bakalavr/magistr)
+languages:
+  - O'zbek (dars berish darajasida erkin)
+  - Rus (o'quv materiallarini o'qish darajasida)
+
+must_have:
+  - Fizika yoki fizika-matematika yo'nalishida oliy ma'lumot (diplom)
+  - Maktab yoki litseyda kamida 2 yil fizika fanidan dars berish tajribasi
+  - Davlat ta'lim standarti asosida dars rejasi va ish reja tuzish tajribasi
+  - O'zbek tilida erkin dars bera olish
+  - 7-11 sinflar uchun fizika kursini mustaqil olib borish
+
+nice_to_have:
+  - Oliy yoki birinchi toifa
+  - Fan olimpiadalariga o'quvchilarni tayyorlash tajribasi
+  - Laboratoriya va amaliy ishlarni mustaqil o'tkazish
+  - Elektron ta'lim platformalari (Google Classroom, interaktiv doska, simulyatsiyalar)
+  - Ingliz tili (xalqaro o'quv materiallari bilan ishlash uchun)
+  - Ilmiy maqolalar yoki metodik qo'llanma muallifligi
+
+skills:
+  - Mexanika, molekulyar fizika, elektr va magnetizm, optika, atom fizikasi
+  - Dars berish metodikasi va baholash tizimi
+  - Masala yechish usullarini o'rgatish
+  - Laboratoriya uskunalari bilan ishlash
+  - Elektron jurnal va hisobot yuritish
+
+responsibilities:
+  - 7-11 sinflarda fizika fanidan dars berish
+  - O'quv dasturi va dars rejalarini tuzish, elektron jurnal yuritish
+  - Nazorat ishlari va yakuniy baholashni tashkil etish
+  - Laboratoriya ishlarini xavfsizlik talablariga muvofiq o'tkazish
+  - Qobiliyatli o'quvchilarni fan olimpiadalariga tayyorlash
+  - Ota-onalar bilan ishlash, metodik birlashma yig'ilishlarida qatnashish
+
+notes: >
+  Litsey fizika-matematika yo'nalishiga ixtisoslashgan, o'quvchilarning aksariyati
+  oliygohga kirishga tayyorlanadi. Shuning uchun nazariyani chuqur tushuntirish va
+  murakkab masala yechish ko'nikmasi muhim.
+
+# O'qituvchi uchun og'irliklar dasturchidan farq qiladi: diplom va ixtisoslik
+# majburiy (education 20), odamlar bilan ishlash kritik (soft_and_language 15),
+# "rahbarlik darajasi" esa unchalik muhim emas (seniority 7).
+weights:
+  hard_skills: 28
+  experience: 20
+  seniority: 7
+  domain: 7
+  education: 20
+  soft_and_language: 15
+  stability: 3
+
+# Mezonlarni shu kasbga aniqlashtiramiz
+criteria_guidance:
+  hard_skills: >
+    fizika fanining bo'limlarini (mexanika, elektr, optika, atom fizikasi) bilishi,
+    dars berish metodikasi, masala yechishni o'rgatish usullari, laboratoriya
+    ishlarini o'tkazish ko'nikmasi. Dasturlash yoki IT ko'nikmalari bu yerda
+    hisobga olinmaydi (faqat elektron jurnal/platforma darajasida).
+  seniority: >
+    mustaqil sinflarni olib borish, metodik birlashmada faollik, yosh
+    o'qituvchilarga ustozlik, toifa darajasi.
+  domain: >
+    maktab, litsey, akademik litsey, kollej yoki repetitorlik markazida ishlagan
+    tajriba. Litsey va ixtisoslashtirilgan maktab tajribasi yuqori baholanadi.
+  soft_and_language: >
+    o'quvchilar bilan muloqot, sinfni boshqarish, ota-onalar bilan ishlash,
+    materialni tushunarli tushuntirish qobiliyati, o'zbek tilida dars berish darajasi.

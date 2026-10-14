@@ -1,0 +1,58 @@
+id: backend-python-senior
+title: Senior Backend Developer (Python)
+level: senior
+company: Uzum Tech
+domain: E-commerce / fintex
+location: Toshkent, gibrid (haftada 3 kun ofis)
+employment_type: To'liq bandlik
+min_years: 5
+education: Bakalavr (Kompyuter injiniringi yoki shunga yaqin); majburiy emas, tajriba muhimroq
+languages:
+  - O'zbek (erkin)
+  - Rus yoki Ingliz (texnik hujjat o'qish darajasida)
+
+# Majburiy talablar — bajarilmasa yakuniy ball cheklanadi
+must_have:
+  - Python bilan kamida 5 yil professional backend tajriba
+  - Django yoki FastAPI bilan production loyihalarda ishlagan
+  - "PostgreSQL bilan ishlash: sxema dizayni va so'rov optimizatsiyasi"
+  - REST API loyihalash tajribasi
+  - Docker bilan ishlash
+
+nice_to_have:
+  - API versiyalash va orqaga moslik (backward compatibility)
+  - Kubernetes / Helm
+  - Kafka yoki RabbitMQ (event-driven arxitektura)
+  - Yuqori yuklamali tizimlar (10k+ RPS)
+  - CI/CD quvurlarini sozlash (GitLab CI, GitHub Actions)
+  - "Monitoring: Prometheus, Grafana"
+  - Jamoaga mentorlik tajribasi
+
+skills:
+  - Python 3.10+
+  - Django / FastAPI
+  - PostgreSQL, Redis
+  - Celery yoki shunga o'xshash navbat tizimi
+  - Git, Docker
+  - Unit va integration testlar (pytest)
+
+responsibilities:
+  - To'lov va buyurtma xizmatlari uchun backend servislarni loyihalash va rivojlantirish
+  - Mavjud monolitni mikroservislarga ajratishda qatnashish
+  - Kod review o'tkazish va middle dasturchilarga mentorlik qilish
+  - Servislar ishlash tezligini va ishonchliligini monitoring qilish
+  - Texnik qarorlarni hujjatlashtirish
+
+notes: >
+  Jamoa mahsulot ustida mustaqil ishlaydi, shuning uchun nomzod o'z qarorini
+  asoslay oladigan va mustaqil ishlay oladigan bo'lishi kerak.
+
+# Rubrika og'irliklari (majburiy emas — ko'rsatilmasa standart qiymat ishlatiladi)
+weights:
+  hard_skills: 32
+  experience: 25
+  seniority: 14
+  domain: 9
+  education: 5
+  soft_and_language: 10
+  stability: 5

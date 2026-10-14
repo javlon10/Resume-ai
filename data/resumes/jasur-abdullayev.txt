@@ -1,0 +1,35 @@
+JASUR ABDULLAYEV
+Python Developer / Data Engineer
+Toshkent | jasur.abdullayev@yandex.ru | +998 97 111 22 33
+
+PROFIL
+6 yildan ortiq Python tajribasi. Asosan ma'lumotlar quvurlari (ETL) va
+ichki hisobot tizimlari bilan ishlaganman. Backend API'lar ham yozganman.
+
+ISH TAJRIBASI
+
+Data Engineer | Agrobank (IT departament) | 2021 — hozirgacha
+- Airflow asosida 60+ ETL DAG yozdim va qo'llab-quvvatlayman.
+- PostgreSQL va Oracle bazalarida og'ir analitik so'rovlarni optimallashtirdim;
+  EXPLAIN ANALYZE bilan ishlash kundalik vazifam.
+- Hisobot xizmati uchun Flask asosida ichki REST API yozdim (30 ga yaqin endpoint).
+- Pandas va SQL bilan ma'lumot sifatini tekshirish skriptlari.
+- Ma'lumot omborining yulduzli sxemasini loyihaladim.
+
+Python Developer | Milliy statistika qo'mitasi loyihasi (autsors) | 2019 — 2021
+- Flask va SQLAlchemy asosida ichki ma'lumot yig'ish tizimi.
+- Excel hisobotlarini avtomatlashtirish (openpyxl), skriptlar.
+- Statistik hisob-kitoblar uchun NumPy/Pandas.
+
+TEXNIK KO'NIKMALAR
+Python, SQL (kuchli), Flask, SQLAlchemy, Airflow, Pandas, NumPy
+Ma'lumotlar bazasi: PostgreSQL, Oracle, MS SQL
+Boshqa: Git, Linux, cron, Jupyter, Power BI
+Django yoki FastAPI bilan amaliy ishlamaganman, lekin o'rganishga tayyorman.
+
+TA'LIM
+Magistr, Amaliy matematika | O'zMU | 2017 — 2019
+Bakalavr, Matematika | O'zMU | 2013 — 2017
+
+TILLAR
+O'zbek — ona tili | Rus — erkin | Ingliz — B1

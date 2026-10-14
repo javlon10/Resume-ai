@@ -1,0 +1,55 @@
+# Namuna javoblar fayli. Ishlatish:
+#   ./scripts/ra interview --answers data/answers/namuna-backend.yaml
+interview: backend-python
+candidate: Dilshod Karimov
+job_title: Senior Backend Developer (Python)
+
+answers:
+  py-1: >
+    GIL — Global Interpreter Lock, ya'ni bir vaqtda faqat bitta thread Python
+    bytecode bajara oladi. Shuning uchun CPU-bound vazifada threading tezlik
+    bermaydi, hatto kontekst almashinuvi tufayli sekinlashtirishi mumkin.
+    CPU-bound ish uchun multiprocessing yoki alohida worker jarayonlar
+    ishlataman. I/O-bound ishda esa thread GIL'ni kutish paytida bo'shatadi,
+    shuning uchun asyncio yoki threading yetarli. Bizda to'lov servisida tashqi
+    API chaqiruvlari I/O-bound, shuning uchun asyncio ishlatganmiz.
+
+  db-1: >
+    Avval EXPLAIN ANALYZE bilan bajarilish rejasini ko'raman: qayerda Seq Scan
+    bor, qayerda satrlar soni taxmini haqiqatdan ko'p farq qilyapti. Ko'pincha
+    kerakli indeks yo'q yoki mavjud indeks ishlatilmayapti — masalan ustunga
+    funksiya qo'llanilgani uchun. Kerak bo'lsa composite yoki partial indeks
+    qo'shaman. Keyin so'rovning o'zini ko'raman: ORM N+1 muammosi bo'lsa
+    select_related/prefetch_related bilan tuzataman. Statistika eskirgan bo'lsa
+    ANALYZE ishga tushiraman. Jadval juda katta bo'lsa partitsiyalashni
+    o'ylayman.
+
+  arx-1: >
+    Biznes chegaralari bo'yicha ajrataman, texnik qatlamlar bo'yicha emas.
+    Birinchi navbatda eng kam bog'langan va tez-tez o'zgaradigan qismni
+    ajrataman — bizda bu xabarnomalar servisi edi. Eng katta xato — faqat kodni
+    ajratib, bazani umumiy qoldirish: bu yashirin bog'liqlik bo'lib qoladi va
+    servislar mustaqil deploy bo'lolmaydi. Taqsimlangan tranzaksiya
+    murakkablashadi, eventual consistency bilan ishlashga tayyor bo'lish kerak.
+    Hammasini bir vaqtda ajratmayman, bosqichma-bosqich migratsiya qilaman.
+
+  prod-2: >
+    Avval to'g'rilikka qarayman: chegaraviy holatlar, null, bo'sh ro'yxat.
+    Testlar borligini va ular haqiqatan biror narsani tekshirayotganini
+    ko'raman. Keyin o'qilishi: nomlash tushunarlimi, ortiqcha murakkablik
+    yo'qmi. Xavfsizlik va xatolarni qayta ishlashga alohida e'tibor beraman.
+    Izohni har doim kodga qarataman, shaxsga emas.
+
+  test-1: >
+    Unit test bitta funksiya yoki klassni tekshiradi, tez ishlaydi va tashqi
+    bog'liqlik bo'lmaydi. Integration test komponentlar birgalikda ishlashini
+    tekshiradi, masalan baza bilan. End-to-end esa foydalanuvchi oqimini to'liq
+    tekshiradi, lekin sekin va mo'rt. Test piramidasiga amal qilaman: ko'p unit,
+    o'rtacha integration, kam e2e.
+
+  db-2: >
+    Tranzaksiya ishlataman va hisob satrini SELECT ... FOR UPDATE bilan
+    qulflab qo'yaman, shunda ikkinchi so'rov kutadi. Bundan tashqari
+    idempotentlik kaliti qo'yaman — mijoz bir xil kalit bilan ikki marta
+    yuborsa, ikkinchisi bajarilmaydi. Balans manfiy bo'lmasligi uchun bazada
+    CHECK constraint ham qo'yaman, chunki mantiqqa to'liq ishonib bo'lmaydi.

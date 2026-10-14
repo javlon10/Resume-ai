@@ -1,0 +1,89 @@
+# Intervyu savol banki shabloni — nusxa olib nomini o'zgartiring
+# (masalan: sotuv-menejeri.yaml). Faqat `title` va `questions` majburiy.
+#
+# ============================================================================
+# ASOSIY QOIDA: har savolga MEZON bo'lishi shart
+#
+# Model nomzod javobini o'z bilimiga emas, SIZ bergan mezonga solishtiradi.
+# Mezonsiz savol qabul qilinmaydi — yuklashda xato beradi.
+#
+# Ikki usul bor, ikkalasini birga ishlatish mumkin:
+#
+#   answer   — to'g'ri javobning o'zi, matn ko'rinishida. Eng tabiiy usul:
+#              savolni yozasiz va unga to'g'ri javobni yozib qo'yasiz.
+#
+#   expected — javobda bo'lishi kerak bo'lgan asosiy fikrlar ro'yxati.
+#              Natijada "qaysi fikr yoritildi / yoritilmadi" aniq ko'rinadi.
+#
+# Tavsiya: ikkalasini ham yozing. `answer` modelga to'liq kontekst beradi,
+# `expected` esa natijani tushunarli qiladi.
+# ============================================================================
+
+title: Lavozim nomi — kasbiy intervyu
+job_id: vakansiya-fayl-nomi   # data/jobs dagi fayl nomi (ixtiyoriy)
+description: >
+  Intervyu nima haqidaligini qisqa yozing.
+
+pass_score: 65                # o'tish chegarasi (0-100)
+default_count: 0              # bankdan nechta savol beriladi (0 = hammasi;
+                              # bankdagi savollar sonidan katta bo'lmasin)
+shuffle: true                 # savollarni aralashtirish
+stratify_by_topic: true       # mavzular bo'yicha teng taqsimlash
+time_limit_min: 45            # 0 = cheklovsiz (faqat ko'rsatiladi)
+
+questions:
+  # --- 1-usul: faqat to'g'ri javob (eng oson) ---
+  - id: q1
+    topic: Mavzu nomi
+    difficulty: o'rta         # oson | o'rta | qiyin
+    text: >
+      Savol matni shu yerda.
+    answer: >
+      To'g'ri javob shu yerda. Model nomzod javobini aynan shunga
+      solishtiradi. Javobni to'liq va aniq yozing — nimani bilish kerak
+      bo'lsa, hammasi shu yerda bo'lsin.
+
+  # --- 2-usul: to'g'ri javob + kutilgan nuqtalar (tavsiya etiladi) ---
+  - id: q2
+    topic: Boshqa mavzu
+    difficulty: qiyin
+    weight: 1.5               # ixtiyoriy; yozilmasa qiyinlikdan olinadi
+    text: >
+      Ikkinchi savol matni.
+    answer: >
+      To'liq to'g'ri javob matni.
+    expected:
+      - "birinchi asosiy fikr"
+      - "ikkinchi asosiy fikr"
+      - "uchinchi asosiy fikr"
+
+  # --- 3-usul: faqat kutilgan nuqtalar ---
+  - id: q3
+    topic: Uchinchi mavzu
+    difficulty: oson
+    text: >
+      Uchinchi savol matni.
+    expected:
+      - "javobda bo'lishi kerak bo'lgan fikr"
+      - "yana bir fikr"
+
+# ============================================================================
+# ESLATMALAR
+#
+# 1. Og'irlik: `weight` yozilmasa qiyinlikdan olinadi —
+#    oson 0.8, o'rta 1.0, qiyin 1.3. Qiyin savol yakuniy ballga ko'proq ta'sir.
+#
+# 2. Javob berilmagan savol 0 ball oladi va modelga yuborilmaydi.
+#
+# 3. YAML tuzog'i: ro'yxat bandi ichida ": " bo'lsa, YAML uni lug'at deb
+#    o'qiydi. Bunday bandni qo'shtirnoqqa oling:
+#      XATO:    - Formula: E = mc²
+#      TO'G'RI: - "Formula: E = mc²"
+#
+# 4. Qonunchilik, normativ hujjat, tibbiyot kabi aniq fakt talab qiladigan
+#    mavzularda mezonni MUTAXASSIS yozsin. Model mezondagi xatoni topib
+#    bermaydi — unga ergashadi (README 7-bo'lim).
+#
+# 5. Nomzod `answer` va `expected` ni KO'RMAYDI — sessiya ochilganda ular
+#    javobdan olib tashlanadi. Ularni ko'rish uchun API kalit kerak.
+# ============================================================================

@@ -1,0 +1,65 @@
+id: advokat
+title: Advokat (fuqarolik va xo'jalik ishlari)
+level: katta (5+ yil tajribali)
+company: Advokatlik byurosi
+domain: Advokatlik faoliyati
+location: Toshkent
+employment_type: To'liq bandlik
+min_years: 5
+education: Yuridik yo'nalishda oliy ma'lumot
+languages:
+  - O'zbek (erkin, sudda nutq darajasida)
+  - Rus (erkin)
+
+must_have:
+  - Advokat guvohnomasi (amaldagi)
+  - Yuridik yo'nalishda oliy ma'lumot
+  - Kamida 5 yil huquqiy amaliyot tajribasi
+  - Sudlarda mijoz manfaatini himoya qilish tajribasi
+  - Da'vo arizasi, apellyatsiya va kassatsiya shikoyatlarini mustaqil tayyorlash
+
+nice_to_have:
+  - Xo'jalik sudlarida murakkab nizolar tajribasi
+  - Bankrotlik ishlari
+  - Jinoyat ishlarida himoyachi sifatida qatnashgan
+  - Xalqaro arbitraj yoki tashqi iqtisodiy nizolar
+  - Mediatsiya va sudgacha kelishuv tajribasi
+  - Ingliz tili
+
+skills:
+  - Fuqarolik va xo'jalik protsessual huquqi
+  - Da'vo va protsessual hujjatlar tayyorlash
+  - Sud amaliyoti tahlili
+  - Mijoz bilan maslahat ishi
+  - Dalillarni to'plash va baholash
+
+responsibilities:
+  - Mijozlarga huquqiy maslahat berish va ish strategiyasini belgilash
+  - Sudlarning barcha instansiyalarida mijoz manfaatini himoya qilish
+  - Protsessual hujjatlarni tayyorlash va topshirish
+  - Sudgacha nizolarni hal qilish bo'yicha muzokara olib borish
+  - Yosh yuristlarga ustozlik qilish
+
+notes: >
+  Byuro asosan biznes mijozlar bilan ishlaydi. Mijoz bilan muloqot va ish
+  strategiyasini tushuntira olish qobiliyati alohida qadrlanadi.
+
+weights:
+  hard_skills: 30
+  experience: 25
+  seniority: 12
+  domain: 8
+  education: 13
+  soft_and_language: 9
+  stability: 3
+
+criteria_guidance:
+  hard_skills: >
+    protsessual huquq bilimi, sud hujjatlarini tayyorlash, dalil bilan ishlash,
+    sud amaliyotini tahlil qilish, muzokara olib borish ko'nikmasi.
+  education: >
+    yuridik diplom majburiy. Advokat guvohnomasi alohida majburiy talab sifatida
+    tekshiriladi.
+  soft_and_language: >
+    sudda og'zaki nutq, mijoz bilan muloqot, murakkab huquqiy masalani mijozga
+    tushunarli tushuntirish qobiliyati.

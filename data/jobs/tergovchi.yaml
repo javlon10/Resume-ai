@@ -1,0 +1,68 @@
+id: tergovchi
+title: Tergovchi
+level: katta (4+ yil tajribali)
+company: Tuman ichki ishlar bo'limi tergov bo'limi
+domain: Ichki ishlar organlari / tergov
+location: Toshkent shahri
+employment_type: To'liq bandlik (xizmat)
+min_years: 4
+education: Yuridik yo'nalishda oliy ma'lumot
+languages:
+  - O'zbek (erkin, protsessual hujjat tuzish darajasida)
+  - Rus (erkin)
+
+must_have:
+  - Yuridik yo'nalishda oliy ma'lumot (diplom)
+  - Tergov yoki surishtiruv organlarida kamida 4 yil tajriba
+  - Jinoyat ishlarini mustaqil yuritish tajribasi
+  - Jinoyat-protsessual hujjatlarni mustaqil rasmiylashtirish
+  - Voqea joyini ko'zdan kechirish va dalillarni rasmiylashtirish tajribasi
+
+nice_to_have:
+  - Iqtisodiy jinoyatlar bo'yicha ish yuritgan
+  - Ekspertiza tayinlash va ekspert xulosasi bilan ishlash tajribasi
+  - Kiberjinoyatchilik yoki raqamli dalillar bilan ishlash
+  - Sudda ayblov materiallarini himoya qilish tajribasi
+  - Yosh tergovchilarga ustozlik qilgan
+  - Malaka oshirish kurslari va sertifikatlar
+
+skills:
+  - Jinoyat va jinoyat-protsessual qonunchilik
+  - So'roq taktikasi va protokol rasmiylashtirish
+  - Dalillarni to'plash, tekshirish va baholash
+  - Ekspertiza turlari va ularni tayinlash tartibi
+  - Ish materiallarini tizimlashtirish va muddatlarni nazorat qilish
+
+responsibilities:
+  - Jinoyat ishlarini qo'zg'atish va to'liq hajmda tergov qilish
+  - Protsessual harakatlarni qonun talablariga muvofiq o'tkazish
+  - Ekspertizalar tayinlash va natijalarini baholash
+  - Ayblov xulosasini tayyorlash va ishni sudga yo'naltirish
+  - Protsessual muddatlarni qat'iy nazorat qilish
+  - Boshqa xizmatlar bilan hamkorlikda ishlash
+
+notes: >
+  Tergov ishi katta mas'uliyat va aniqlik talab qiladi: protsessual xatolik
+  butun ishni yaroqsiz qilishi mumkin. Nomzod hujjat bilan puxta ishlaydigan
+  va bosim ostida xatoga yo'l qo'ymaydigan bo'lishi kerak.
+
+weights:
+  hard_skills: 32
+  experience: 25
+  seniority: 10
+  domain: 10
+  education: 15
+  soft_and_language: 6
+  stability: 2
+
+criteria_guidance:
+  hard_skills: >
+    jinoyat va protsessual qonunchilik bilimi, protsessual hujjatlarni xatosiz
+    rasmiylashtirish, dalil bilan ishlash, ekspertiza tayinlash, so'roq
+    taktikasi.
+  domain: >
+    tergov, surishtiruv, prokuratura yoki sud organlarida ishlagan tajriba.
+    Faqat patrul yoki profilaktika yo'nalishida ishlagan bo'lsa, tergov
+    tajribasi alohida tekshirilishi kerak.
+  education: >
+    yuridik diplom majburiy — tergovchi lavozimi uchun boshqa yo'nalish mos emas.

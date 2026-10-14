@@ -1,0 +1,163 @@
+# Bu bank YANGI usulda yozilgan: HR har savolga TO'G'RI JAVOBNI o'zi yozib
+# qo'ygan (`answer`). Model nomzod javobini aynan shunga solishtiradi.
+#
+# `expected` (kutilgan nuqtalar) ham qo'shilgan — majburiy emas, lekin
+# natijada "qaysi fikr yoritilgan / yoritilmagan" aniq ko'rinadi.
+# Ikkisidan kamida bittasi bo'lishi shart.
+id: matematika-oqituvchi
+title: Matematika o'qituvchisi — kasbiy intervyu
+job_id: matematika-oqituvchi
+description: >
+  Matematika fani, olimpiada masalalari va dars metodikasi bo'yicha savollar.
+  Har savolga to'g'ri javob yozilgan — baholash shunga solishtirib beriladi.
+pass_score: 65
+default_count: 6
+shuffle: true
+stratify_by_topic: true
+time_limit_min: 40
+
+questions:
+  - id: alg-1
+    topic: Algebra
+    difficulty: o'rta
+    text: >
+      Kvadrat tenglamaning diskriminanti nimani ko'rsatadi? Uni o'quvchiga
+      grafik orqali qanday tushuntirasiz?
+    answer: >
+      Diskriminant D = b² − 4ac formulasi bilan topiladi va u tenglamaning
+      nechta haqiqiy ildizi borligini ko'rsatadi. D > 0 bo'lsa ikkita har xil
+      haqiqiy ildiz, D = 0 bo'lsa bitta (ikkilangan) ildiz, D < 0 bo'lsa
+      haqiqiy ildiz yo'q. Grafik orqali tushuntirganda parabola chizaman va
+      diskriminant parabolaning abssissa o'qini nechta nuqtada kesib
+      o'tishini belgilashini ko'rsataman: ikkita kesishish, bitta urinish
+      nuqtasi yoki umuman kesishmaslik. Shunda o'quvchi formulani yodlab
+      emas, ko'rib tushunadi.
+    expected:
+      - "D = b² − 4ac formulasi"
+      - "D > 0 — ikkita ildiz, D = 0 — bitta, D < 0 — haqiqiy ildiz yo'q"
+      - "parabolaning abssissa o'qi bilan kesishish nuqtalari soni"
+      - "grafik ko'rgazma orqali tushuntirish usuli"
+
+  - id: alg-2
+    topic: Algebra
+    difficulty: qiyin
+    text: >
+      O'rta arifmetik va o'rta geometrik orasidagi tengsizlikni (AM-GM) ayting
+      va uni qanday isbotlash mumkinligini tushuntiring.
+    answer: >
+      Manfiy bo'lmagan a va b sonlari uchun (a + b)/2 ≥ √(ab), ya'ni o'rta
+      arifmetik o'rta geometrikdan kichik emas. Tenglik faqat a = b bo'lganda
+      o'rinli. Eng sodda isbot: (√a − √b)² ≥ 0 ekanidan foydalanamiz. Qavsni
+      ochsak a − 2√(ab) + b ≥ 0, bundan a + b ≥ 2√(ab), ikkala tomonni 2 ga
+      bo'lsak kerakli tengsizlik chiqadi. Bu tengsizlik n ta son uchun ham
+      umumlashadi: (a₁ + ... + aₙ)/n ≥ ⁿ√(a₁·...·aₙ).
+    expected:
+      - "(a+b)/2 ≥ √(ab), manfiy bo'lmagan sonlar uchun"
+      - "tenglik faqat a = b bo'lganda"
+      - "isbot: (√a − √b)² ≥ 0 dan kelib chiqishi"
+      - "n ta son uchun umumlashmasi"
+
+  - id: geo-1
+    topic: Geometriya
+    difficulty: o'rta
+    text: >
+      Pifagor teoremasining bir nechta isbotini bilasizmi? Bittasini bayon qiling
+      va o'quvchi uchun qaysi biri tushunarliroq deb hisoblaysiz?
+    answer: >
+      Teorema: to'g'ri burchakli uchburchakda katetlar kvadratlari yig'indisi
+      gipotenuza kvadratiga teng, ya'ni a² + b² = c². Maydonlar orqali isbot
+      eng ko'rgazmali: tomoni (a + b) bo'lgan kvadrat chizamiz va uning ichiga
+      to'rtta bir xil to'g'ri burchakli uchburchakni joylashtiramiz. Katta
+      kvadrat yuzi (a + b)², ichkarida qolgan kvadrat yuzi c², to'rtta
+      uchburchak yuzi 4·(ab/2) = 2ab. Demak (a + b)² = c² + 2ab, qavsni ochsak
+      a² + 2ab + b² = c² + 2ab, 2ab qisqaradi va a² + b² = c² qoladi.
+      O'quvchi uchun aynan shu isbot tushunarliroq, chunki uni qog'ozda kesib
+      yasash mumkin — o'xshash uchburchaklar orqali isbot esa nisbatlarni
+      talab qiladi va abstraktroq.
+    expected:
+      - "teorema ta'rifi: a² + b² = c²"
+      - "kamida bitta isbot bayoni (maydonlar orqali yoki o'xshash uchburchaklar)"
+      - "isbotning mantiqiy ketma-ketligi to'g'ri"
+      - "o'quvchiga mos isbot tanlash va sababini asoslash"
+
+  - id: kom-1
+    topic: Kombinatorika
+    difficulty: qiyin
+    text: >
+      10 kishidan 3 kishilik komissiya necha xil usulda tuzilishi mumkin?
+      O'rin almashtirish va kombinatsiya farqini tushuntiring.
+    answer: >
+      Komissiya tuzishda kimning oldin, kimning keyin tanlangani ahamiyatsiz —
+      faqat tarkib muhim. Shuning uchun bu kombinatsiya: C(10,3) = 10!/(3!·7!)
+      = 120. Agar tartib muhim bo'lsa (masalan rais, o'rinbosar va kotib
+      tanlanayotgan bo'lsa), bu o'rinlashtirish bo'ladi: A(10,3) = 10·9·8 =
+      720. Farqi shundaki, kombinatsiyada {A, B, C} va {C, B, A} bir xil
+      hisoblanadi, o'rinlashtirishda esa har xil. Shu sababli A(n,k) =
+      C(n,k)·k!, ya'ni o'rinlashtirish kombinatsiyadan k! marta ko'p.
+    expected:
+      - "C(10,3) = 120"
+      - "kombinatsiyada tartib muhim emas"
+      - "o'rinlashtirishda tartib muhim"
+      - "formulalar: C(n,k) = n!/(k!(n−k)!)"
+
+  - id: son-1
+    topic: Sonlar nazariyasi
+    difficulty: qiyin
+    text: >
+      Tub sonlar cheksiz ko'p ekanini qanday isbotlaysiz?
+    answer: >
+      Evklid isboti — teskaridan faraz qilish orqali. Faraz qilaylik, tub
+      sonlar chekli va ularning hammasi p₁, p₂, ..., pₙ. Shu sonlarning
+      ko'paytmasiga 1 qo'shamiz: N = p₁·p₂·...·pₙ + 1. Bu N soni ro'yxatdagi
+      hech bir tub songa bo'linmaydi, chunki har qaysisiga bo'lganda 1 qoldiq
+      qoladi. Demak N yo o'zi tub son, yo ro'yxatda bo'lmagan tub bo'luvchiga
+      ega. Har ikki holda ham ro'yxatimiz to'liq emas ekan — bu farazimizga
+      zid. Demak tub sonlar cheksiz ko'p.
+    expected:
+      - "Evklid isboti g'oyasi: qarama-qarshilikka keltirish"
+      - "barcha tub sonlar ko'paytmasiga 1 qo'shish"
+      - "hosil bo'lgan son yo tub, yo ro'yxatda yo'q tub bo'luvchiga ega"
+      - "demak ro'yxat to'liq emas — qarama-qarshilik"
+
+  - id: met-1
+    topic: Dars metodikasi
+    difficulty: o'rta
+    text: >
+      O'quvchi masalani yecha olmayapti va "men matematikani tushunmayman" deydi.
+      Qanday yordam berasiz?
+    answer: >
+      Avval masalani kichik bosqichlarga bo'laman va qaysi qadamda to'xtab
+      qolganini aniqlayman — ko'pincha muammo masalada emas, undan oldingi
+      mavzudagi bo'shliqda bo'ladi. O'sha bo'shliqni topib, osonroq o'xshash
+      masaladan boshlayman, toki o'quvchi bitta masalani mustaqil yechib
+      muvaffaqiyat tajribasini olsin. Keyin qiyinlikni asta oshiraman.
+      Shu bilan birga "tushunmayman" degan gapni tuzataman: matematika tug'ma
+      qobiliyat emas, mashq masalasi — hozir yecha olmayotgani hali
+      qobiliyatsizlik emas. Zarur bo'lsa qo'shimcha mashg'ulot tayinlayman va
+      bir necha hafta natijani kuzatib boraman.
+    expected:
+      - "masalani kichik bosqichlarga bo'lish"
+      - "oldingi bilimdagi bo'shliqni aniqlash"
+      - "osonroq o'xshash masaladan boshlash va muvaffaqiyat tajribasi berish"
+      - "motivatsiya: qobiliyat emas, mashq masalasi ekanini tushuntirish"
+
+  - id: met-2
+    topic: Dars metodikasi
+    difficulty: oson
+    text: >
+      Olimpiadaga tayyorlashda dars oddiy darsdan nimasi bilan farq qiladi?
+    answer: >
+      Oddiy darsda dastur bo'yicha standart masalalar yechiladi va asosiy
+      maqsad — barcha o'quvchining minimal darajani o'zlashtirishi. Olimpiada
+      tayyorgarligida esa standart bo'lmagan, ijodiy masalalar olinadi va
+      maqsad — o'quvchini mustaqil izlanishga o'rgatish. Tayyor algoritm
+      berilmaydi, aksincha g'oya va strategiyalar o'rgatiladi: masalani
+      soddalashtirish, xususiy holni ko'rish, teskaridan borish, invariant
+      izlash. O'quvchi bitta masala ustida uzoq o'ylashga odatlanishi kerak —
+      bu oddiy darsda bo'lmaydi. Yondashuv individual, chunki har bir
+      o'quvchining kuchli tomoni har xil, va mashg'ulot muntazam bo'lishi shart.
+    expected:
+      - "standart bo'lmagan, ijodiy masalalar"
+      - "yechish strategiyalari va g'oyalarni o'rgatish"
+      - "mustaqil izlanish va uzoq o'ylashga o'rgatish"
+      - "individual yondashuv va muntazam mashq"

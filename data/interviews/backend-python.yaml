@@ -1,0 +1,135 @@
+id: backend-python
+title: Senior Backend Developer (Python) — texnik intervyu
+job_id: backend-python-senior
+description: >
+  Python, ma'lumotlar bazasi, arxitektura va ishlab chiqarish amaliyoti bo'yicha
+  savollar. Bank 10 ta savoldan iborat, nomzodga 7 tasi beriladi.
+pass_score: 65
+default_count: 7
+shuffle: true
+stratify_by_topic: true
+time_limit_min: 60
+
+questions:
+  - id: py-1
+    topic: Python
+    difficulty: o'rta
+    text: >
+      Python'da GIL nima va u ko'p yadroli serverda ishlashga qanday ta'sir
+      qiladi? CPU va I/O og'ir vazifalarda qanday yondashuv tanlaysiz?
+    expected:
+      - "GIL — bir vaqtda faqat bitta thread bytecode bajarishiga ruxsat beradi"
+      - "CPU-bound vazifada threading tezlik bermasligi"
+      - "CPU-bound uchun multiprocessing yoki alohida jarayonlar"
+      - "I/O-bound uchun asyncio yoki threading yetarli ekani"
+
+  - id: py-2
+    topic: Python
+    difficulty: qiyin
+    text: >
+      Ishlab chiqarishdagi servisda xotira sekin-asta o'sib boryapti (memory leak
+      shubhasi). Sababni qanday topasiz?
+    expected:
+      - "monitoring metrikalari bilan o'sish shaklini aniqlash (doimiymi, yuklamaga bog'liqmi)"
+      - "tracemalloc, objgraph yoki memory_profiler bilan snapshot solishtirish"
+      - "global ro'yxat/kesh, tugatilmagan ulanish yoki closure sababi bo'lishi"
+      - "reproduksiya qilish va gipotezani bosqichma-bosqich tekshirish"
+
+  - id: db-1
+    topic: Ma'lumotlar bazasi
+    difficulty: o'rta
+    text: >
+      PostgreSQL'da so'rov sekin ishlayapti. Qanday tartibda tekshirasiz va
+      qanday choralar ko'rasiz?
+    expected:
+      - "EXPLAIN ANALYZE bilan bajarilish rejasini ko'rish"
+      - "Seq Scan / indeks ishlatilmayotganini aniqlash"
+      - "mos indeks qo'shish (shu jumladan composite yoki partial)"
+      - "so'rovni qayta yozish, N+1 muammosini bartaraf etish"
+      - "statistikani yangilash (ANALYZE), kerak bo'lsa partitsiyalash"
+
+  - id: db-2
+    topic: Ma'lumotlar bazasi
+    difficulty: qiyin
+    text: >
+      To'lov tizimida bitta hisobdan bir vaqtda ikki marta pul yechilib ketmasligi
+      uchun qanday himoya qo'yasiz?
+    expected:
+      - "tranzaksiya va mos izolyatsiya darajasi"
+      - "SELECT ... FOR UPDATE yoki optimistik qulflash (versiya ustuni)"
+      - "idempotentlik kaliti — takroriy so'rov ikki marta bajarilmasligi"
+      - "bazadagi cheklov (constraint) bilan mantiqni mustahkamlash"
+      - "taqsimlangan tizimda outbox yoki saga naqshi"
+
+  - id: arx-1
+    topic: Arxitektura
+    difficulty: qiyin
+    text: >
+      Monolitni mikroservislarga ajratish kerak. Qayerdan boshlaysiz va qanday
+      xatolardan saqlanasiz?
+    expected:
+      - "biznes chegaralari bo'yicha ajratish, texnik qatlamlar bo'yicha emas"
+      - "birinchi navbatda eng kam bog'langan va tez o'zgaradigan qismni ajratish"
+      - "ma'lumotlar bazasini ham ajratish kerakligi, umumiy baza — yashirin bog'liqlik"
+      - "taqsimlangan tranzaksiya murakkabligi, eventual consistency"
+      - "bir vaqtda hammasini ajratmaslik, bosqichma-bosqich migratsiya"
+
+  - id: arx-2
+    topic: Arxitektura
+    difficulty: o'rta
+    text: >
+      REST API loyihalashda versiyalashni qanday tashkil qilasiz va orqaga
+      moslikni qanday saqlaysiz?
+    expected:
+      - "URL yoki header orqali versiyalash va tanlov sababi"
+      - "yangi maydon qo'shish buzmaydi, maydonni o'chirish/nomini o'zgartirish buzadi"
+      - "eski versiyani ma'lum muddat qo'llab-quvvatlash va deprecation e'lon qilish"
+      - "iste'molchilarni ogohlantirish va monitoring orqali foydalanishni kuzatish"
+
+  - id: prod-1
+    topic: Ishlab chiqarish amaliyoti
+    difficulty: o'rta
+    text: >
+      Servis ishlab chiqarishda xato bera boshladi, lekin lokalda takrorlanmayapti.
+      Qanday harakat qilasiz?
+    expected:
+      - "log va tracing orqali aniq so'rovni topish (correlation id)"
+      - "metrikalar: qachon boshlangani, qaysi deploy bilan mos kelishi"
+      - "kerak bo'lsa oldingi versiyaga qaytarish (rollback) — avval tiklash, keyin tekshirish"
+      - "ishlab chiqarish va lokal muhit farqlarini solishtirish (ma'lumot, konfiguratsiya, yuklama)"
+
+  - id: prod-2
+    topic: Ishlab chiqarish amaliyoti
+    difficulty: oson
+    text: >
+      Kod review o'tkazayotganda nimalarga e'tibor berasiz?
+    expected:
+      - "to'g'rilik va chegaraviy holatlar"
+      - "testlar bor-yo'qligi va ular haqiqatan tekshirayotgani"
+      - "o'qilishi, nomlash, ortiqcha murakkablik yo'qligi"
+      - "xavfsizlik va xatolarni qayta ishlash"
+      - "izohni shaxsga emas, kodga qaratish"
+
+  - id: test-1
+    topic: Testlash
+    difficulty: o'rta
+    text: >
+      Unit, integration va end-to-end testlar farqi nimada? Qaysi birini ko'proq
+      yozasiz va nima uchun?
+    expected:
+      - "unit — bitta funksiya/klass, tez, tashqi bog'liqliksiz"
+      - "integration — komponentlar birgalikda (baza, tashqi servis)"
+      - "e2e — to'liq oqim foydalanuvchi nuqtai nazaridan, sekin va mo'rt"
+      - "piramida: ko'p unit, o'rtacha integration, kam e2e"
+
+  - id: test-2
+    topic: Testlash
+    difficulty: qiyin
+    text: >
+      Tashqi to'lov provayderiga bog'liq kodni qanday testlaysiz?
+    expected:
+      - "tashqi chaqiruvni interfeys ortiga yashirish (abstraksiya)"
+      - "mock yoki fake implementatsiya bilan test qilish"
+      - "provayderning sandbox muhitidan integration testda foydalanish"
+      - "xato holatlarini (timeout, 500, noto'g'ri javob) ham testlash"
+      - "tarmoqqa bog'liq testni CI'da ajratib qo'yish"

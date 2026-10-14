@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# CLI uchun qisqa chaqiruv. Misol:
+#   ./scripts/ra jobs
+#   ./scripts/ra batch --job data/jobs/fizika-oqituvchi.yaml --resumes data/resumes
+set -euo pipefail
+source "$(dirname "$0")/env.sh"
+require_venv
+cd "$PROJECT_DIR"
+exec "$PY" -m app.cli "$@"

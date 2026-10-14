@@ -1,0 +1,58 @@
+id: buxgalter
+title: Yetakchi buxgalter
+level: katta (5+ yil tajribali)
+company: Savdo va ishlab chiqarish kompaniyasi
+domain: Savdo / ishlab chiqarish
+location: Toshkent, Chilonzor
+employment_type: To'liq bandlik
+min_years: 5
+education: Buxgalteriya hisobi, moliya yoki iqtisodiyot yo'nalishida oliy ma'lumot
+languages:
+  - O'zbek (erkin)
+  - Rus (hisobot va hujjat darajasida)
+
+must_have:
+  - Buxgalteriya, moliya yoki iqtisodiyot yo'nalishida oliy ma'lumot
+  - Kamida 5 yil buxgalter sifatida ishlash tajribasi
+  - Soliq hisobotlarini mustaqil tuzish va topshirish tajribasi
+  - 1C yoki shunga o'xshash buxgalteriya tizimida ishlash
+  - O'zbekiston soliq kodeksi va NSBU talablarini bilish
+
+nice_to_have:
+  - Yetakchi yoki bosh buxgalter sifatida ishlagan
+  - QQS hisob-kitobi va qaytarish tajribasi
+  - Ishlab chiqarish tannarxini hisoblash tajribasi
+  - Auditorlik tekshiruvlarini o'tkazish tajribasi
+  - Didox yoki elektron hujjat aylanishi tizimlari
+  - Ingliz tili (xalqaro standartlar IFRS uchun)
+
+skills:
+  - 1C:Buxgalteriya, Excel (murakkab formulalar, jadvallar)
+  - Soliq hisobotlari, QQS, daromad solig'i
+  - Bank operatsiyalari va valyuta hisobi
+  - Asosiy vositalar hisobi, inventarizatsiya
+  - Ish haqi hisob-kitobi
+
+responsibilities:
+  - Kompaniya buxgalteriya hisobini to'liq yuritish
+  - Soliq va statistik hisobotlarni o'z vaqtida topshirish
+  - Bank va kassa operatsiyalarini nazorat qilish
+  - Debitor va kreditor qarzlarni hisobga olish
+  - 2 kishilik buxgalteriya bo'limiga rahbarlik qilish
+
+weights:
+  hard_skills: 30
+  experience: 25
+  seniority: 12
+  domain: 8
+  education: 13
+  soft_and_language: 7
+  stability: 5
+
+criteria_guidance:
+  hard_skills: >
+    buxgalteriya dasturlari (1C, Excel), soliq hisobotlari, NSBU va soliq kodeksi
+    bilimi, ish haqi va asosiy vositalar hisobi. Umumiy IT ko'nikmalari muhim emas.
+  domain: >
+    savdo, ishlab chiqarish, xizmat ko'rsatish yoki qurilish sohasida buxgalteriya
+    tajribasi. Ishlab chiqarish tannarxi bilan ishlagan tajriba yuqori baholanadi.

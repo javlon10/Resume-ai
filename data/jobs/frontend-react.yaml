@@ -1,0 +1,58 @@
+id: frontend-react
+title: Frontend Developer (React)
+level: middle
+company: Payme
+domain: Fintex / mobil to'lovlar
+location: Toshkent, ofis
+employment_type: To'liq bandlik
+min_years: 2
+education: Majburiy emas — portfolio va amaliy tajriba muhimroq
+languages:
+  - O'zbek yoki rus (erkin)
+  - Ingliz (texnik hujjat o'qish darajasida)
+
+must_have:
+  - React bilan kamida 2 yil professional tajriba
+  - TypeScript bilan ishlash tajribasi
+  - REST API bilan integratsiya qilish tajribasi
+  - Git bilan jamoada ishlash
+  - Adaptiv (responsive) interfeys yasash
+
+nice_to_have:
+  - Holat boshqaruvi kutubxonalari (Redux Toolkit, Zustand, React Query)
+  - Testlar (Jest, React Testing Library, Playwright)
+  - Figma maketlari bilan ishlash
+  - Next.js yoki SSR tajribasi
+  - Veb ishlash tezligini optimallashtirish (Lighthouse, bundle size)
+  - Fintex yoki to'lov tizimlari tajribasi
+
+skills:
+  - React, TypeScript, JavaScript (ES2020+)
+  - HTML5, CSS3, SASS yoki Tailwind
+  - Vite yoki Webpack
+  - Git, code review
+
+responsibilities:
+  - Mijoz kabineti va to'lov oqimlari interfeysini ishlab chiqish
+  - Backend jamoasi bilan API shartnomalarini kelishish
+  - Komponent kutubxonasini rivojlantirish va hujjatlashtirish
+  - Kod review o'tkazish
+
+# Frontend uchun diplom muhim emas — education og'irligi pasaytirilgan
+weights:
+  hard_skills: 35
+  experience: 25
+  seniority: 10
+  domain: 7
+  education: 3
+  soft_and_language: 12
+  stability: 8
+
+criteria_guidance:
+  hard_skills: >
+    React ekotizimi, TypeScript, CSS/layout ko'nikmalari, API integratsiyasi,
+    build asboblari. Backend texnologiyalari (Django, PostgreSQL) bu vakansiyada
+    afzallik emas — ularni hisobga olma.
+  education: >
+    diplom majburiy emas. Agar nomzodda tegishli diplom bo'lmasa ham, portfolio
+    va amaliy tajriba kuchli bo'lsa, bu mezonga 70 dan past ball qo'yma.

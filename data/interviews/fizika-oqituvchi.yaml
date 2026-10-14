@@ -1,0 +1,166 @@
+id: fizika-oqituvchi
+title: Fizika o'qituvchisi — kasbiy intervyu
+job_id: fizika-oqituvchi
+description: >
+  Fan bilimi va dars berish metodikasi bo'yicha savollar. Bank 12 ta savoldan
+  iborat, har bir nomzodga 8 tasi mavzular bo'yicha teng taqsimlanib,
+  aralashtirilgan holda beriladi.
+pass_score: 60
+default_count: 8
+shuffle: true
+stratify_by_topic: true
+time_limit_min: 45
+
+questions:
+  # ---------- Mexanika ----------
+  - id: mex-1
+    topic: Mexanika
+    difficulty: oson
+    text: >
+      Nyutonning ikkinchi qonunini ta'riflang va uni 9-sinf o'quvchisiga qanday
+      tushuntirishingizni ayting.
+    expected:
+      - "F = ma formulasi (kuch massa va tezlanish ko'paytmasiga teng)"
+      - "kuch va tezlanish o'zaro proporsional, massa o'zgarmas bo'lganda"
+      - "massa inersiya o'lchovi ekani"
+      - "o'quvchiga tushunarli amaliy misol keltirilgani (arava, avtomobil va h.k.)"
+
+  - id: mex-2
+    topic: Mexanika
+    difficulty: qiyin
+    text: >
+      O'quvchi shunday deydi: "Jism tekis harakatlanayotgan bo'lsa, unga kuch
+      ta'sir qilyapti, chunki u harakatlanyapti". Bu qayerda xato va siz bu
+      tushunmovchilikni qanday tuzatasiz?
+    expected:
+      - "xato: harakat uchun kuch kerak degan tasavvur (Aristotel qarashi)"
+      - "to'g'risi: tekis to'g'ri chiziqli harakat uchun natijaviy kuch nolga teng"
+      - "Nyutonning birinchi qonuni (inersiya) bilan bog'lash"
+      - "ishqalanish kuchini hisobga olish kerakligi tushuntirilgani"
+      - "tajriba yoki ko'rgazmali misol orqali tuzatish usuli"
+
+  - id: mex-3
+    topic: Mexanika
+    difficulty: o'rta
+    text: >
+      Energiyaning saqlanish qonunini tushuntiring va uni laboratoriya ishida
+      qanday ko'rsatish mumkinligini ayting.
+    expected:
+      - "yopiq tizimda to'liq mexanik energiya o'zgarmasligi"
+      - "potensial va kinetik energiya bir-biriga aylanishi"
+      - "ishqalanish bo'lsa energiya issiqlikka o'tishi"
+      - "amaliy tajriba misoli (mayatnik, qiya tekislik, prujina)"
+
+  # ---------- Elektr va magnetizm ----------
+  - id: elek-1
+    topic: Elektr va magnetizm
+    difficulty: oson
+    text: >
+      Om qonunini ta'riflang. Ketma-ket va parallel ulanishda qarshilik qanday
+      hisoblanadi?
+    expected:
+      - "I = U / R (tok kuchi kuchlanishga proporsional, qarshilikka teskari)"
+      - "ketma-ket ulanishda R = R1 + R2 + ..."
+      - "parallel ulanishda 1/R = 1/R1 + 1/R2 + ..."
+      - "parallel ulanishda umumiy qarshilik eng kichigidan ham kichik bo'lishi"
+
+  - id: elek-2
+    topic: Elektr va magnetizm
+    difficulty: qiyin
+    text: >
+      Elektromagnit induksiya hodisasini tushuntiring. Lens qoidasi nima uchun
+      kerak va u energiyaning saqlanishi bilan qanday bog'liq?
+    expected:
+      - "magnit oqimi o'zgarganda EYK paydo bo'lishi (Faradey qonuni)"
+      - "EYK magnit oqimining o'zgarish tezligiga proporsional"
+      - "Lens qoidasi: induksion tok o'zini vujudga keltirgan sababga qarshilik qiladi"
+      - "qarshilik qilmasa energiya o'z-o'zidan paydo bo'lardi — saqlanish qonuni buzilardi"
+
+  - id: elek-3
+    topic: Elektr va magnetizm
+    difficulty: o'rta
+    text: >
+      Qisqa tutashuv nima va uy sharoitida nima uchun xavfli? Himoya qanday ishlaydi?
+    expected:
+      - "qarshilik keskin kamayib tok kuchi juda ortishi"
+      - "o'tkazgich qizib ketishi, yong'in xavfi"
+      - "avtomat o'chirgich yoki saqlagich zanjirni uzishi"
+      - "xavfsizlik qoidasi o'quvchiga tushuntirilishi"
+
+  # ---------- Optika ----------
+  - id: opt-1
+    topic: Optika
+    difficulty: o'rta
+    text: >
+      Yorug'likning sinishi nima? Nur zichroq muhitdan siyrak muhitga o'tganda
+      nima sodir bo'ladi va to'la ichki qaytish qachon yuz beradi?
+    expected:
+      - "muhit chegarasida nur yo'nalishining o'zgarishi"
+      - "zichroqdan siyrakka o'tganda nur normaldan uzoqlashishi"
+      - "chegaraviy burchakdan katta burchakda to'la ichki qaytish"
+      - "amaliy qo'llanilishi (optik tola, prizma, ilyuziya)"
+
+  - id: opt-2
+    topic: Optika
+    difficulty: oson
+    text: >
+      Yig'uvchi linzada tasvir qanday hosil bo'ladi? Fokus masofasi va tasvir
+      turi orasidagi bog'liqlikni tushuntiring.
+    expected:
+      - "linza formulasi 1/F = 1/d + 1/f"
+      - "buyum fokusdan uzoqda bo'lsa — haqiqiy, teskari tasvir"
+      - "buyum fokus ichida bo'lsa — mavhum, to'g'ri, kattalashgan tasvir"
+      - "ko'zoynak, lupa yoki proyektor misoli"
+
+  # ---------- Metodika ----------
+  - id: met-1
+    topic: Dars metodikasi
+    difficulty: o'rta
+    text: >
+      Sinfda o'quvchilarning bilim darajasi juda turlicha. Bitta darsda kuchli
+      va bo'sh o'quvchi bilan bir vaqtda qanday ishlaysiz?
+    expected:
+      - "tabaqalashtirilgan topshiriqlar (turli qiyinlikda)"
+      - "kuchli o'quvchilarga qo'shimcha/ijodiy vazifa"
+      - "bo'sh o'quvchilar bilan bosqichma-bosqich ishlash, qo'shimcha mashg'ulot"
+      - "juftlik yoki guruhda ishlash, o'zaro o'rgatish"
+      - "oraliq nazorat orqali darajani kuzatib borish"
+
+  - id: met-2
+    topic: Dars metodikasi
+    difficulty: qiyin
+    text: >
+      Laboratoriya ishida o'quvchilar olgan natija nazariy qiymatdan sezilarli
+      farq qildi. Bu vaziyatni darsda qanday ishlatasiz?
+    expected:
+      - "xatoni muvaffaqiyatsizlik emas, o'rganish imkoniyati sifatida ko'rish"
+      - "o'lchash xatoliklari manbalarini birga tahlil qilish"
+      - "asbob aniqligi, tashqi ta'sirlar, metodik xatolar muhokamasi"
+      - "o'quvchilarni o'zlari sabab izlashga undash"
+      - "natijani qayta o'lchash yoki tajribani takrorlash"
+
+  - id: met-3
+    topic: Dars metodikasi
+    difficulty: oson
+    text: >
+      Dars rejasini tuzishda qaysi bosqichlarni albatta ko'zda tutasiz?
+    expected:
+      - "dars maqsadi va kutilayotgan natija"
+      - "o'tilgan mavzuni takrorlash / motivatsiya qismi"
+      - "yangi mavzu bayoni va mustahkamlash"
+      - "baholash va uyga vazifa"
+      - "vaqt taqsimoti"
+
+  # ---------- Xavfsizlik ----------
+  - id: xav-1
+    topic: Xavfsizlik
+    difficulty: o'rta
+    text: >
+      Fizika xonasida elektr bilan bog'liq laboratoriya ishini o'tkazishdan
+      oldin qanday xavfsizlik choralarini ko'rasiz?
+    expected:
+      - "o'quvchilar bilan yo'riqnoma o'tkazish va imzolatish"
+      - "past kuchlanishli manba ishlatish"
+      - "asboblarning butligini oldindan tekshirish"
+      - "o'qituvchi nazoratisiz ulanmaslik qoidasi"
+      - "birinchi yordam va manbani o'chirish tartibini bilish"

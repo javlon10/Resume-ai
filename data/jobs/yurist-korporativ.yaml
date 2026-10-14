@@ -1,0 +1,69 @@
+id: yurist-korporativ
+title: Korporativ yurist
+level: o'rta / katta (3+ yil tajribali)
+company: Ishlab chiqarish va savdo kompaniyasi
+domain: Korporativ huquq / biznes
+location: Toshkent, Mirzo Ulug'bek tumani
+employment_type: To'liq bandlik
+min_years: 3
+education: Yuridik yo'nalishda oliy ma'lumot (bakalavr yoki magistr)
+languages:
+  - O'zbek (hujjat tuzish darajasida)
+  - Rus (shartnoma va yozishmalar uchun)
+
+must_have:
+  - Yuridik yo'nalishda oliy ma'lumot (diplom)
+  - Kamida 3 yil yurist sifatida ishlash tajribasi
+  - Xo'jalik shartnomalarini mustaqil tuzish va ekspertiza qilish tajribasi
+  - O'zbekiston mehnat qonunchiligi bo'yicha amaliy ish tajribasi
+  - Sud yoki nizolarni hal qilish jarayonida qatnashgan
+
+nice_to_have:
+  - Xo'jalik sudlarida kompaniya manfaatlarini himoya qilish tajribasi
+  - Korporativ tuzilma bilan ishlash (ta'sis hujjatlari, ulush o'tkazish)
+  - Tashqi iqtisodiy faoliyat va import-eksport shartnomalari
+  - Litsenziya va ruxsatnomalarni rasmiylashtirish
+  - Shaxsiy ma'lumotlar himoyasi qonunchiligi
+  - Advokat guvohnomasi
+  - Ingliz tili (xalqaro shartnomalar uchun)
+
+skills:
+  - Shartnoma huquqi va shartnoma ekspertizasi
+  - Mehnat qonunchiligi, kadrlar hujjatlari
+  - Da'vo arizasi va protsessual hujjatlar tayyorlash
+  - Lex.uz va huquqiy ma'lumot bazalari bilan ishlash
+  - Kontragentni huquqiy tekshirish (due diligence)
+
+responsibilities:
+  - Kompaniya tuzadigan barcha shartnomalarni tayyorlash va ekspertiza qilish
+  - Mehnat munosabatlari bo'yicha hujjatlarni huquqiy jihatdan ta'minlash
+  - Kompaniya manfaatlarini sud va davlat organlarida himoya qilish
+  - Kontragentlar bilan da'vo-nizo ishlarini yuritish
+  - Rahbariyatga huquqiy xulosalar tayyorlash
+  - Qonunchilikdagi o'zgarishlarni kuzatib borish va jamoani xabardor qilish
+
+notes: >
+  Kompaniyada bitta yurist ishlaydi, shuning uchun nomzod mustaqil qaror qabul
+  qila oladigan va turli sohadagi masalalarni o'zi hal qila oladigan bo'lishi kerak.
+
+weights:
+  hard_skills: 30
+  experience: 25
+  seniority: 12
+  domain: 8
+  education: 15
+  soft_and_language: 7
+  stability: 3
+
+criteria_guidance:
+  hard_skills: >
+    shartnoma huquqi, mehnat qonunchiligi, protsessual hujjatlar tayyorlash,
+    huquqiy ekspertiza va xulosalar yozish ko'nikmasi, huquqiy bazalar bilan
+    ishlash. Umumiy IT ko'nikmalari hisobga olinmaydi.
+  education: >
+    yuridik diplom MAJBURIY. Boshqa yo'nalishdagi diplom bu vakansiya uchun
+    mos emas, qancha tajriba bo'lsa ham.
+  domain: >
+    korporativ sektor, ishlab chiqarish, savdo yoki xizmat ko'rsatish
+    kompaniyasida ishlagan tajriba. Faqat davlat organida ishlagan bo'lsa,
+    biznes muhitiga moslashish savoli tug'iladi.

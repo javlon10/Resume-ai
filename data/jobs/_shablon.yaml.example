@@ -1,0 +1,59 @@
+# Vakansiya shabloni — nusxa olib, nomini o'zgartiring (masalan: frontend-react.yaml)
+# Faqat `title` majburiy, qolgani ixtiyoriy.
+#
+# DIQQAT — YAML tuzog'i: ro'yxat bandi ichida ": " bo'lsa, YAML uni lug'at deb
+# o'qiydi va talab noto'g'ri ketadi. Bunday bandni qo'shtirnoqqa oling:
+#   XATO:    - Monitoring: Prometheus, Grafana
+#   TO'G'RI: - "Monitoring: Prometheus, Grafana"
+# (Tizim bunday xatoni yuklashda tutadi va ogohlantiradi.)
+
+title: Lavozim nomi
+level: junior          # junior / middle / senior / lead
+company: Kompaniya nomi
+domain: Soha (fintex, e-commerce, telekom, ta'lim, ...)
+location: Toshkent, ofis / gibrid / masofadan
+employment_type: To'liq bandlik
+min_years: 2
+# max_years: 5
+education: Talab qilinadigan ta'lim (yoki "majburiy emas")
+languages:
+  - O'zbek (erkin)
+  - Ingliz (B1+)
+
+# MAJBURIY talablar. Bajarilmasa yakuniy ball koeffitsiyentga ko'paytiriladi
+# (not_met → 0.45, partial → 0.92 atrofida).
+#
+# Muhim: har bir bandni BITTA tekshiriladigan talab qilib yozing.
+#   Yaxshi emas: "REST API loyihalash va versiyalash tajribasi"  ← ikkitasi birga,
+#                model ko'pincha "partial" deb belgilaydi
+#   Yaxshisi:    "REST API loyihalash tajribasi"
+#                "API versiyalash tajribasi"
+must_have:
+  - Birinchi majburiy talab
+  - Ikkinchi majburiy talab
+
+nice_to_have:
+  - Afzallik beradigan ko'nikma
+
+skills:
+  - Texnologiya 1
+  - Texnologiya 2
+
+responsibilities:
+  - Asosiy vazifa 1
+
+notes: >
+  Qo'shimcha kontekst: jamoa qanday ishlaydi, nima muhim.
+
+# Rubrika og'irliklari — ko'rsatmasangiz standart qiymat ishlatiladi.
+# 0 qo'ysangiz mezon hisobdan butunlay chiqadi.
+# Mezonlar: hard_skills, experience, seniority, domain, education,
+#           soft_and_language, stability
+weights:
+  hard_skills: 30
+  experience: 25
+  seniority: 10
+  domain: 10
+  education: 10
+  soft_and_language: 10
+  stability: 5
